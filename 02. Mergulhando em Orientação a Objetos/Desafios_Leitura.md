@@ -112,8 +112,8 @@ A fórmula para calcular a área de um quadrado é:
 
 Depois que fizer isso, implemente um novo método para calcular a área de um círculo, dado um raio. A fórmula matemática neste caso é:
 
-**área do círculo = raio² * &pi**
+**área do círculo = raio² * &pi;**
 
-Você precisa saber: &pi (pronuncia-se "pi") é uma constante com o valor igual a 3.14159265358979323846.
+Você precisa saber: &pi; (pronuncia-se "pi") é uma constante com o valor igual a 3.14159265358979323846.
 
 Ao finalizar o desenvolvimento dos métodos utilitários, crie uma nova classe com o método main para testar os cálculos.
