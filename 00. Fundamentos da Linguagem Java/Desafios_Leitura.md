@@ -9,7 +9,7 @@ Você deve baixar os códigos-fonte de diversos programas que estão com problemas 
 Tem gente que entra em pânico quando vê uma mensagem de erro, ainda mais em inglês. Mas fica tranquilo, se precisar, traduza as palavras que você não conhece. É bom que você comece a fazer amizade coma as mensagens de erro, porque elas ajudam muito.
 
 
-### Desafio 01 - 
+### Desafio 01 - Variáveis e operadores aritméticos
 
 Um comerciante está curioso para saber o ticket médio das últimas 3 vendas que fez em sua loja e contratou você para desenvolver um programa que resolva isso.
 
@@ -39,6 +39,32 @@ public class CalculadoraPesosDasCargas {
 
     // O resultado deve ser 1883
     System.out.println("Peso total das cargas: " + pesoTotalCargas);
+  }
+
+}
+```
+
+### Desafio 03 - Promoção aritmética
+
+Um programador Java iniciante está desenvolvendo um programa que deve calcular a idade média de 3 pessoas, porém o resultado deve ser com casas decimais.
+
+Ele já tentou alterar o tipo da variável idadeMedia para float, mas mesmo assim o resultado não é o que ele espera (os decimais sempre ficam zerados).
+
+Esse programador ficou sabendo que você está fazendo este curso e pediu a sua ajuda para resolver esse problema.
+
+Altere o código para que o cálculo da idade média seja feito em ponto-flutuante.
+
+```java
+public class CalculadoraIdadeMedia {
+
+  public static void main(String[] args) {
+    int idade1 = 30;
+    int idade2 = 40;
+    int idade3 = 60;
+
+    int idadeMedia = (idade1 + idade2 + idade3) / 3;
+
+    System.out.println("Idade média: " + idadeMedia);
   }
 
 }
