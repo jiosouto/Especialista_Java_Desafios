@@ -108,11 +108,11 @@ Agora, implemente um método estático nessa classe para calcular a área de um qua
 
 A fórmula para calcular a área de um quadrado é:
 
-área do quadrado = área²\
+**área do quadrado = área²**
 
 Depois que fizer isso, implemente um novo método para calcular a área de um círculo, dado um raio. A fórmula matemática neste caso é:
 
-área do círculo = raio² * p\
+**área do círculo = raio² * p**
 
 Você precisa saber: p (pronuncia-se "pi") é uma constante com o valor igual a 3.14159265358979323846.
 
