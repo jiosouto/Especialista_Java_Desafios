@@ -1,15 +1,11 @@
 public class Principal {
 
     public static void main(String[] args) {
-        Televisor tv = new Televisor();
+        System.out.println(NumeroUtil.descobrirMaior(10, 9));
+        System.out.println(NumeroUtil.descobrirMaior(25, 21, 22));
 
-        // Não deveria mudar o volume e canal
-        tv.mudarVolume(20);
-        tv.mudarCanal(130);
-
-        // Deveria mudar o volume e canal
-        tv.mudarVolume(300);
-        tv.mudarCanal(10);
+        System.out.println(NumeroUtil.descobrirMaior(2.9, 1.8));
+        System.out.println(NumeroUtil.descobrirMaior(30.0, 30.1, 20.4));
     }
 
 }
