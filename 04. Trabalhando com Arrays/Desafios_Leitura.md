@@ -37,7 +37,7 @@ public class Calendario {
 
 Uma software house está desenvolvendo um software para gestão de restaurantes e você foi designado para finalizar a implementação da classe Cardapio.
 
-Implemente os métodos, conforme as tarefas pendentes comentadas no código-fonte, usando o array de ItemCardapio. Depois, rode a classe Principal para fazer alguns testes.
+Implemente os métodos conforme as tarefas pendentes comentadas no código-fonte, usando o array de ItemCardapio. Depois, rode a classe Principal para fazer alguns testes.
 
 ```java
 public class ItemCardapio {
